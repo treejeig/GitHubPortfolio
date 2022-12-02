@@ -1,12 +1,12 @@
 class Project {
   String name;
-  String assetName;
+  String? assetName;
   String? browseCodeLink;
   String? liveDemoLink;
 
   Project(
       {required this.name,
-      required this.assetName,
+      this.assetName,
       this.browseCodeLink,
       this.liveDemoLink});
 }

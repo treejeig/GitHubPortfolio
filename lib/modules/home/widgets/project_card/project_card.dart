@@ -4,7 +4,7 @@ import 'package:github_portfolio/modules/home/widgets/on_hover_card.dart';
 import 'package:github_portfolio/modules/home/widgets/project_card/widgets/project_details.dart';
 import 'package:github_portfolio/modules/home/widgets/project_card/widgets/project_image.dart';
 
-Widget ProjectCard(String projectName, String projectImageAsset,{String? browseCodeLink,String? liveDemoLink}) {
+Widget ProjectCard(String projectName, String? projectImageAsset,{String? browseCodeLink,String? liveDemoLink}) {
   return OnHoverCard(
       firstWidget:
         ProjectImage(projectImageAsset),

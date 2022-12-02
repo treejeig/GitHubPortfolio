@@ -21,7 +21,6 @@ class HomePageController extends ChangeNotifier {
     ),
     Project(
         name: "ListGen",
-        assetName: "assets/listgen.jpg",
         liveDemoLink: "https://treejeig.github.io/listgen/"
     ),
   ];

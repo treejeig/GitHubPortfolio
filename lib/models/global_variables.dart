@@ -3,6 +3,7 @@ import 'package:url_launcher/url_launcher.dart';
 double padding = 16.0;
 double projectCardSize = 350.0;
 double contactCardSize = 50.0;
+String appIconPreparing = "APP ICON\n\nUNDER THE\n\nCONSTRUCTION";
 String linkedInProfileLink = "https://www.linkedin.com/in/aykut-ozturk/";
 String githubProfileLink = "https://github.com/treejeig";
 String phoneNumberLink = "tel:+905327751348";
