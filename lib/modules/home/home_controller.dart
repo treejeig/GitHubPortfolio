@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:github_portfolio/models/global_variables.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../../models/project.dart';
@@ -13,6 +14,12 @@ class HomePageController extends ChangeNotifier {
   bool showHover = false;
 
   List<Project> projects = [
+    Project(
+        name: "GitHub Portfolio",
+        assetName: "assets/treejeig.jpg",
+        browseCodeLink: thisProjectRepoLink,
+        showLiveDemoButton: false
+    ),
     Project(
         name: "AeroClock",
         assetName: "assets/aero-clock-icon-1024.png",

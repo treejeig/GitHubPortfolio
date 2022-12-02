@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:github_portfolio/modules/home/widgets/project_card/widgets/go_to_link_button.dart';
 import '../../../../../models/global_variables.dart';
 
-Widget ProjectDetails(String projectName, double buttonsWidth,{String? browseCodeLink, String? liveDemoLink}){
+Widget ProjectDetails(String projectName, double buttonsWidth,{String? browseCodeLink, String? liveDemoLink,bool showBrowseCodeButton=true,bool showLiveDemoButton=true}){
   return Center(
     child: Column(
       children: [
@@ -14,9 +14,10 @@ Widget ProjectDetails(String projectName, double buttonsWidth,{String? browseCod
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              GoToLinkButton(browseCodeLink, "Browse Code", buttonsWidth),
-              Divider(thickness: padding,color: Colors.transparent,),
-              GoToLinkButton(liveDemoLink, "Live Demo", buttonsWidth),
+              Visibility(visible:showBrowseCodeButton, child: GoToLinkButton(browseCodeLink, "Browse Code", buttonsWidth)),
+              Divider(thickness: padding,color: Colors.transparent),
+              Visibility(visible:showLiveDemoButton, child: GoToLinkButton(liveDemoLink, "Live Demo", buttonsWidth)),
+              Visibility(visible: (!showLiveDemoButton && browseCodeLink == thisProjectRepoLink), child: GoToLinkButton(null, "You are already seeing this page.", buttonsWidth)),
             ],
           ),
         ),

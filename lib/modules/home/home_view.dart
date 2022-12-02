@@ -48,7 +48,7 @@ class _HomePageState extends ConsumerState<HomePage> {
                     ],
                   ),
                 ),
-                //#enregion
+                //#endregion
                 //#region Projects
                 Container(
                   padding: EdgeInsets.symmetric(vertical: padding),
@@ -78,7 +78,9 @@ class _HomePageState extends ConsumerState<HomePage> {
                                   homePageController.projects[index].name,
                                   homePageController.projects[index].assetName,
                                   browseCodeLink : homePageController.projects[index].browseCodeLink,
-                                  liveDemoLink: homePageController.projects[index].liveDemoLink);
+                                  liveDemoLink: homePageController.projects[index].liveDemoLink,
+                                  showBrowseCodeButton: homePageController.projects[index].showBrowseCodeButton,
+                                  showLiveDemoButton: homePageController.projects[index].showLiveDemoButton);
                             },
                           ),
                         ),

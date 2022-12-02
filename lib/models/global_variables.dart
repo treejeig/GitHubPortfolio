@@ -7,6 +7,7 @@ String appIconPreparing = "APP ICON\n\nUNDER THE\n\nCONSTRUCTION";
 String linkedInProfileLink = "https://www.linkedin.com/in/aykut-ozturk/";
 String githubProfileLink = "https://github.com/treejeig";
 String phoneNumberLink = "tel:+905327751348";
+String thisProjectRepoLink = "https://github.com/treejeig/GitHubPortfolio";
 String mailTo = "aykutozturk48@gmail.com";
 String mailSubject = "From Portfolio Page";
 String mailBody = "Hi Aykut, My name is ... .\n\nI saw your GitHub Portfolio Page.\n\n...\n\nThank you.\n\n";
