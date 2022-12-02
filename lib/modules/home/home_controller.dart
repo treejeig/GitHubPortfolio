@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:github_portfolio/models/global_variables.dart';
-import 'package:url_launcher/url_launcher.dart';
-
 import '../../models/project.dart';
 
 

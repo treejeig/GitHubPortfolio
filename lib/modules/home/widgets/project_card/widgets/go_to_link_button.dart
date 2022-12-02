@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../../../../models/global_variables.dart';
 import '../../../../../models/custom_launch_url.dart';
+
 Widget GoToLinkButton(String? goToUrl,String title,double width) {
   final bool enabled = (goToUrl!=null);
   return GestureDetector(
@@ -8,7 +9,6 @@ Widget GoToLinkButton(String? goToUrl,String title,double width) {
       if(enabled){
         CustomLaunchUrl.customLaunchUrl(goToUrl);
       }
-      //goToUrl!=null ? print(goToUrl) : print("empty");
     },
     child: MouseRegion(
       cursor: enabled ? SystemMouseCursors.click : SystemMouseCursors.forbidden,

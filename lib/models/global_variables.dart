@@ -1,5 +1,3 @@
-import 'package:url_launcher/url_launcher.dart';
-
 double padding = 16.0;
 double projectCardSize = 350.0;
 double contactCardSize = 50.0;
