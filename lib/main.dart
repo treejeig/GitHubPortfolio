@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:github_portfolio/models/global_variables.dart';
 import 'package:github_portfolio/modules/home/home_view.dart';
 import 'package:url_strategy/url_strategy.dart';
 
@@ -18,7 +19,7 @@ class GitHubPortfolio extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "TreeJeig's GitHub Portfolio",
       theme: ThemeData(
-        primarySwatch: Colors.red,
+        primarySwatch: Colors.red
       ),
       home: const HomePage(),
     );

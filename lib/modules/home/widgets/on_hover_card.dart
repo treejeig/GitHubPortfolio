@@ -83,10 +83,14 @@ class _OnHoverCardState extends State<OnHoverCard> {
             AnimatedContainer(
               width: widget.width,
               height: widget.height,
+              decoration: BoxDecoration(
+                color: animate! ? Colors.white.withOpacity(0.5) : Colors.transparent,
+                borderRadius: widget.useBorderRadius
+                    ? BorderRadius.circular(padding)
+                    : BorderRadius.zero,
+              ),
               padding: EdgeInsets.only(top: animate! ? 0 : widget.height),
               duration: Duration(milliseconds: 200),
-              color:
-                  animate! ? Colors.white.withOpacity(0.5) : Colors.transparent,
               child: widget.onHoverWidget,
             ),
           ],

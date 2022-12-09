@@ -1,3 +1,6 @@
+import 'package:flutter/material.dart';
+
+Color appBGColor = Colors.white;
 double padding = 16.0;
 double projectCardSize = 350.0;
 double contactCardSize = 50.0;

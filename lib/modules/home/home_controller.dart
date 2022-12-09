@@ -21,11 +21,15 @@ class HomePageController extends ChangeNotifier {
     Project(
         name: "AeroClock",
         assetName: "assets/aero-clock-icon-1024.png",
+        playStoreLink: "https://play.google.com/store/apps/details?id=com.sftech.aeroclock",
         browseCodeLink: "https://github.com/treejeig/AeroClock",
-        liveDemoLink: "https://treejeig.github.io/aeroclock/"
+        liveDemoLink: "https://treejeig.github.io/aeroclock/",
+        showPlayStoreButton: true
     ),
     Project(
         name: "ListGen",
+        assetName: "assets/listgen-icon-1024.png",
+        browseCodeLink: "https://github.com/treejeig/ListGen",
         liveDemoLink: "https://treejeig.github.io/listgen/"
     ),
   ];
