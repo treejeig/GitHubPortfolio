@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../../../models/global_variables.dart';
+import 'package:github_portfolio/models/global_variables.dart';
 
 Widget ProjectImage(String? projectImageAsset){
   bool hasIcon = (projectImageAsset!=null);

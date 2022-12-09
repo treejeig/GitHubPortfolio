@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../../../models/custom_launch_url.dart';
+import 'package:github_portfolio/models/custom_launch_url.dart';
 
 Widget PlayStoreButton(String? playStoreUrl,double width) {
   return GestureDetector(

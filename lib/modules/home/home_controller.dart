@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:github_portfolio/models/global_variables.dart';
-import '../../models/project.dart';
+import 'package:github_portfolio/models/project.dart';
 
 
 final homePageProvider = ChangeNotifierProvider<HomePageController>((ref){

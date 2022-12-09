@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../../../../models/global_variables.dart';
-import '../../../../../models/custom_launch_url.dart';
+import 'package:github_portfolio/models/global_variables.dart';
+import 'package:github_portfolio/models/custom_launch_url.dart';
 
 Widget GoToLinkButton(String? goToUrl,String title,double width) {
   final bool enabled = (goToUrl!=null);

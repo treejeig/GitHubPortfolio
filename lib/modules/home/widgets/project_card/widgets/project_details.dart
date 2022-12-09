@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:github_portfolio/modules/home/widgets/project_card/widgets/go_to_link_button.dart';
 import 'package:github_portfolio/modules/home/widgets/project_card/widgets/play_store_button.dart';
-import '../../../../../models/global_variables.dart';
+import 'package:github_portfolio/models/global_variables.dart';
 
 Widget ProjectDetails(String projectName, double buttonsWidth,{String? playStoreLink, String? browseCodeLink, String? liveDemoLink,bool showPlayStoreButton=false,bool showBrowseCodeButton=true,bool showLiveDemoButton=true}){
   return Center(
